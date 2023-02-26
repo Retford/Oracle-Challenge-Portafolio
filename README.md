@@ -1,1 +1,0 @@
-# Oracle-Challenge-Portafolio
