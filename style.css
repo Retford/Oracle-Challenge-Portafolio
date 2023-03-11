@@ -90,6 +90,7 @@ section.hobbies {
 .title__profile {
   max-width: 98px;
   padding-bottom: 16px;
+  border-radius: 50%;
 }
 
 .skills__title,
