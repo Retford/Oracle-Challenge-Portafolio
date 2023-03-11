@@ -306,15 +306,15 @@ section.formcontato {
   gap: 16px;
 }
 
-section.formcontato form input,
-section.formcontato form textarea {
+.formcontato__input,
+.formcontato__textarea {
   border: transparent;
   flex-grow: 1;
   height: 56px;
   width: 80vw;
 }
 
-section.formcontato form textarea {
+.formcontato__textarea {
   height: 96px;
 }
 
@@ -518,10 +518,6 @@ Utiliza las referencias de los breakpoints @media abajo */
 
   .formcontato__subtext {
     font-size: 16px;
-  }
-
-  .formcontato__botao {
-    padding: 9px 13px;
   }
   /*Footer*/
 }
