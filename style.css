@@ -352,36 +352,174 @@ Utiliza las referencias de los breakpoints @media abajo */
     gap: 32px;
   }
 
-  .skills__box, .hobbies__box {
+  .skills__box,
+  .hobbies__box {
     width: 30%;
   }
 
-  /*Skills*/
+  .academic__courses {
+    justify-content: space-between;
+  }
 
-  /*Hobbies*/
+  .academic__courses__item__img {
+    padding: 50px 70px;
+  }
 
-  /*Formación Académica*/
-
-  /*Experiencia Profesional*/
+  .experience__img {
+    height: 320px;
+  }
 }
 
 /*Mobile*/
-@media (min-width: 425px) {
+@media (min-width: 1440px) {
   /*Menu*/
 
+  section.menu {
+    justify-content: space-around;
+  }
+  .menu__list {
+    display: flex;
+    padding: 0;
+    gap: 32px;
+  }
+
+  .menu__list__item:nth-child(6) {
+    font-weight: bold;
+  }
+
+  .menu__list__item__contato {
+    display: none;
+  }
   /*Titulo*/
+  section.title {
+    padding: 32px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .title__profile {
+    max-width: 368px;
+    padding-left: initial;
+  }
+
+  .title__bio {
+    font-size: 52px;
+  }
+
+  .title__subsection {
+    font-size: 22px;
+  }
+
+  .title__container {
+    max-width: 700px;
+  }
+
+  .title__div {
+    align-items: center;
+  }
 
   /*Sección sobre mi*/
+  section.about {
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+  }
+  .about__title {
+    font-size: 32px;
+  }
 
+  .about__paragraph {
+    font-size: 16px;
+  }
+
+  .about__container {
+    max-width: 1050px;
+  }
   /*Skills*/
+  .skills__line,
+  .hobbies__line {
+    gap: 16px;
+    justify-content: center;
+  }
 
+  .skills__box,
+  .hobbies__box {
+    width: 11.5%;
+  }
   /*Hobbies*/
 
   /*Formación Académica*/
+  section.academic {
+    padding: 82px;
+  }
 
+  .academic__title {
+    font-size: 32px;
+  }
+  .academic__courses {
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .academic__courses__item__img {
+    padding: 70px 125px;
+  }
   /*Experiencia Profesional*/
+  .experience__img {
+    max-width: 752px;
+    height: 406px;
+  }
 
+  .experience__box:nth-child(2n) {
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .experience__box:nth-child(3n) {
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .experience__box:last-child {
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
   /*Contacto*/
+  .formcontato--esquerda {
+    display: initial;
+  }
 
+  .formcontato__contacto {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .formcontato__text {
+    width: 645px;
+  }
+
+  .formcontato__input {
+    width: 656px;
+  }
+
+  .formcontato__textarea {
+    width: 656px;
+    height: 133px;
+  }
+
+  .formcontato__title {
+    font-size: 32px;
+  }
+
+  .formcontato__subtext {
+    font-size: 16px;
+  }
+
+  .formcontato__botao {
+    padding: 9px 13px;
+  }
   /*Footer*/
 }
