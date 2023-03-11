@@ -43,9 +43,9 @@ https://en.bem.info/methodology/quick-start/*/
 
 /* contenedor  */
 
-/* .tudo {
-  margin: 16px;
-} */
+html {
+  scroll-behavior: smooth;
+}
 
 /*Sección Menu*/
 
