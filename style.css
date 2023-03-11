@@ -282,16 +282,6 @@ section.formcontato {
   gap: 32px;
 }
 
-.formcontato__input {
-  width: 296px;
-  height: 56px;
-}
-
-.formcontato__textarea {
-  width: 296px;
-  height: 133px;
-}
-
 .formcontato__botao,
 .experience__botao--demo,
 .experiencia__botao--repo {
@@ -314,6 +304,18 @@ section.formcontato {
 .experience__description {
   display: flex;
   gap: 16px;
+}
+
+section.formcontato form input,
+section.formcontato form textarea {
+  border: transparent;
+  flex-grow: 1;
+  height: 56px;
+  width: 80vw;
+}
+
+section.formcontato form textarea {
+  height: 96px;
 }
 
 /*footeer*/
@@ -501,12 +503,12 @@ Utiliza las referencias de los breakpoints @media abajo */
     width: 645px;
   }
 
-  .formcontato__input {
-    width: 656px;
+  .formcontato__input,
+  .formcontato__textarea {
+    width: 100%;
   }
 
   .formcontato__textarea {
-    width: 656px;
     height: 133px;
   }
 
